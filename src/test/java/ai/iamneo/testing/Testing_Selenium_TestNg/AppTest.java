@@ -18,7 +18,7 @@ public class AppTest {
 	@BeforeTest
 	public void beforeTest() throws Exception {
 	//	System.setProperty("webdriver.chrome.driver", "/home/coder/project/workspace/Testing-with-Selenium-TestNg/chromedriver");
-		driver = new RemoteWebDriver(new URL("http://172.17.0.3:4444"), chromeOptions);
+		driver = new RemoteWebDriver(new URL("http://localhost:4444"), chromeOptions);
 	}
 
 	@Test
